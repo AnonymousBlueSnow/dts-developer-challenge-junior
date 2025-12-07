@@ -1,5 +1,5 @@
 # HMCTS Dev Test - AnonymousBlueSnow
--In the repo other than the code, there is also a folder called "webPhotos" where I have attached images of the web application.
+- In the repo other than the code, there is also a folder called "webPhotos" where I have attached images of the web application.
 
 # Running the application steps
 - Download/pull the contents in the repo to your machine.
