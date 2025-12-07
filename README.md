@@ -1,10 +1,16 @@
-# HMCTS Dev Test Backend
-This will be the backend for the brand new HMCTS case management system. As a potential candidate we are leaving
-this in your hands. Please refer to the brief for the complete list of tasks! Complete as much as you can and be
-as creative as you want.
+# HMCTS Dev Test - AnonymousBlueSnow
 
-You should be able to run `./gradlew build` to start with to ensure it builds successfully. Then from that you
-can run the service in IntelliJ (or your IDE of choice) or however you normally would.
+# Running the application steps
+- Download/pull the contents in "Civil Service" to your machine.
+- Open the application in Intellij IDEA (I developed in 2025.3 Community Edition).
+- Please download MySQL Workbench if you don't have it.
+- Create a database in there called "hmcts".
+- Go to the application, and navigate to src -> main -> resources -> application.properties and update lines 6,7 and 8 with your MySQL Workbench database details.
+- Run the application by going to src -> main -> java ->uk.gov.hmcts.reform.dev -> Application, and run from there (click on the green run button on top right).
+  Please wait to visit the below url until the "Run" output window shows "Reached end of dummy code creation"
+- If the build or tests fail, just click to restart it as it always fixes the issue
+- You can access the main solution by navigating to "http://localhost:8080/cases"
+- You can access the swagger api interface by navigating to "http://localhost:8080/swagger-ui/index.html"
+- You can run the unit/integration tests by going to src -> test and right clicking on the "test" folder, then selecting "Run Tests in Civil_Service.test"
 
-There is an example endpoint provided to retrieve an example of a case. You are free to add/remove fields as you
-wish.
+

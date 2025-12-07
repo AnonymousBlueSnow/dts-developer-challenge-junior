@@ -164,6 +164,7 @@ dependencies {
   implementation group: 'ch.qos.logback', name: 'logback-core', version: logbackVersion
 
   implementation group: 'io.rest-assured', name: 'rest-assured'
+  implementation group: 'io.rest-assured', name: 'rest-assured'
   implementation group: 'org.projectlombok', name: 'lombok'
   annotationProcessor 'org.projectlombok:lombok'
 
@@ -173,6 +174,14 @@ dependencies {
     exclude group: 'junit', module: 'junit'
     exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
   }
+
+  //My added dependencies
+  implementation 'org.springframework.boot:spring-boot-starter-data-jpa' //For JPA including entity tags
+  implementation group: 'org.json', name: 'json', version: '20250107'    //JSON for Java
+  runtimeOnly 'com.mysql:mysql-connector-j'                              //MySQL
+  developmentOnly 'org.springframework.boot:spring-boot-devtools'        //Dev helpers
+  runtimeOnly 'org.apache.tomcat.embed:tomcat-embed-jasper:10.1.9'       //JSPs
+  runtimeOnly 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.0'         //JSP tags
 }
 
 mainClassName = 'uk.gov.hmcts.reform.dev.Application'

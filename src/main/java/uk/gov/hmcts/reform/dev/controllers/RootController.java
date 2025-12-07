@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import static org.springframework.http.ResponseEntity.ok;
 
+/**
+ * Used for smoke test
+ */
 @RestController
 public class RootController {
 
