@@ -1,7 +1,8 @@
 # HMCTS Dev Test - AnonymousBlueSnow
+-In the repo other than the code, there is also a folder called "webPhotos" where I have attached images of the web application.
 
 # Running the application steps
-- Download/pull the contents in "Civil Service" to your machine.
+- Download/pull the contents in the repo to your machine.
 - Open the application in Intellij IDEA (I developed in 2025.3 Community Edition).
 - Please download MySQL Workbench if you don't have it.
 - Create a database in there called "hmcts".
@@ -12,5 +13,6 @@
 - You can access the main solution by navigating to "http://localhost:8080/cases"
 - You can access the swagger api interface by navigating to "http://localhost:8080/swagger-ui/index.html"
 - You can run the unit/integration tests by going to src -> test and right clicking on the "test" folder, then selecting "Run Tests in Civil_Service.test"
+
 
 
