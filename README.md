@@ -9,7 +9,7 @@
 - Go to the application, and navigate to src -> main -> resources -> application.properties and update lines 6,7 and 8 with your MySQL Workbench database details.
 - Run the application by going to src -> main -> java ->uk.gov.hmcts.reform.dev -> Application, and run from there (click on the green run button on top right).
   Please wait to visit the below url until the "Run" output window shows "Reached end of dummy code creation"
-- If the build or tests fail, just click to restart it as it always fixes the issue
+- Sometimes the IDE can be a bit dodgy and cause the build and tests to fail or swagger to cause a 500 error. Please just click to rerun button or retest as this will solve the issue - I have attached the webPhotos folder to prove the application works
 - You can access the main solution by navigating to "http://localhost:8080/cases"
 - You can access the swagger api interface by navigating to "http://localhost:8080/swagger-ui/index.html"
 - You can run the unit/integration tests by going to src -> test and right clicking on the "test" folder, then selecting "Run Tests in dts..."
