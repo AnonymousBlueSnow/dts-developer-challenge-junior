@@ -12,7 +12,7 @@
 - If the build or tests fail, just click to restart it as it always fixes the issue
 - You can access the main solution by navigating to "http://localhost:8080/cases"
 - You can access the swagger api interface by navigating to "http://localhost:8080/swagger-ui/index.html"
-- You can run the unit/integration tests by going to src -> test and right clicking on the "test" folder, then selecting "Run Tests in Civil_Service.test"
+- You can run the unit/integration tests by going to src -> test and right clicking on the "test" folder, then selecting "Run Tests in dts..."
 
 
 
